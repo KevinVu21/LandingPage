@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    flex-shrink: 0;
     background-color: #1f2937;
 }
 .header {
@@ -110,7 +111,24 @@ body {
 .third {
     display: flex;
     flex-direction: column;
-    background-color: #3882f6;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 120px 0px;
+}
+
+.quote {
+    display: flex;
+    width: 900px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    
+}
+.thor {
+    margin-left: 500px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 a {
